@@ -11,10 +11,10 @@
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  
 	<cc:assembly id="WorkdayAssembly" version="2023.15">
-        <cc:workday-in id="StartHere" routes-to="AsyncMediation">
+        <cc:workday-in id="StartHere" routes-to="Storeproc">
             <cc:integration-system name="test_org"/>
         </cc:workday-in>
-        <cc:async-mediation id="AsyncMediation">
+        <cc:async-mediation id="Storeproc">
             <cc:steps>
                 <cc:store id="Store"/>
             </cc:steps>
