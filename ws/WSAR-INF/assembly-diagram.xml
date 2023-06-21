@@ -7,8 +7,15 @@
   <visualProperties x="461" y="218">
     <element href="assembly.xml#Storeproc"/>
   </visualProperties>
+  <visualProperties x="696" y="242">
+    <element href="assembly.xml#SftpOut"/>
+  </visualProperties>
   <connections type="routesTo" sourceAnchorX="0.6417910447761194" sourceAnchorY="1.0" targetAnchorX="0.017857142857142856" targetAnchorY="0.6428571428571429">
     <source href="assembly.xml#StartHere"/>
     <target href="assembly.xml#Storeproc"/>
+  </connections>
+  <connections type="routesTo" sourceAnchorX="1.0" sourceAnchorY="0.17346938775510204" targetAnchorX="0.025423728813559324" targetAnchorY="0.5675675675675675">
+    <source href="assembly.xml#Storeproc"/>
+    <target href="assembly.xml#SftpOut"/>
   </connections>
 </wdnm:Diagram>
